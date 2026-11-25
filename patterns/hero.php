@@ -7,8 +7,10 @@
  * Viewport width: 1400
  */
 ?>
-<!-- wp:group {"align":"full","className":"hl-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"860px","justifyContent":"left"}} -->
+<!-- wp:group {"align":"full","className":"hl-hero","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull hl-hero" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--70)">
+<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"860px","justifyContent":"left"}} -->
+<div class="wp-block-group alignwide">
 	<!-- wp:paragraph {"className":"is-style-text-eyebrow"} -->
 	<p class="is-style-text-eyebrow">Functional medicine &amp; IV therapy · Bryan, Ohio</p>
 	<!-- /wp:paragraph -->
@@ -36,5 +38,7 @@
 	<!-- wp:paragraph {"textColor":"muted","fontSize":"small"} -->
 	<p class="has-muted-color has-text-color has-small-font-size">The Meet &amp; Greet is a free 15-minute call with Stephanie Sines, CNP.</p>
 	<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
