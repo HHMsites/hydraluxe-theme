@@ -18,7 +18,7 @@
 <!-- wp:column {"width":"32%"} -->
 <div class="wp-block-column" style="flex-basis:32%">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-portrait"} -->
-			<figure class="wp-block-image size-full is-style-image-portrait"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/stephanie-sines.jpg' ) ); ?>" alt="Stephanie Sines, CNP, smiling with arms crossed in a cream blazer"/></figure>
+			<figure class="wp-block-image size-full is-style-image-portrait"><img src="https://hydraluxe-wellness.com/wp-content/uploads/2026/11/stephanie-sines-hydraluxe-wellness.jpg" alt="Stephanie Sines, functional medicine provider at HydraLuxe Wellness"/></figure>
 			<!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -75,7 +75,7 @@
 <!-- wp:column {"width":"32%"} -->
 <div class="wp-block-column" style="flex-basis:32%">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-image-portrait"} -->
-			<figure class="wp-block-image size-full is-style-image-portrait"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/melissa-schlachter.jpg' ) ); ?>" alt="Melissa Schlachter smiling in black scrubs"/></figure>
+			<figure class="wp-block-image size-full is-style-image-portrait"><img src="https://hydraluxe-wellness.com/wp-content/uploads/2026/11/melissa-schlachter-hydraluxe-wellness.jpg" alt="Melissa Schlachter, IV therapy provider at HydraLuxe Wellness"/></figure>
 			<!-- /wp:image -->
 </div>
 <!-- /wp:column -->
