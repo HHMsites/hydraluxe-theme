@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Mist (light)",
+	"slug": "section-mist",
+	"blockTypes": [ "core/group", "core/post-content" ],
+	"styles": {
+		"color": { "background": "var:preset|color|mist", "text": "var:preset|color|ink-body" },
+		"elements": {
+			"heading": { "color": { "text": "var:preset|color|base" } },
+			"h6": { "color": { "text": "var:preset|color|teal-deep" } },
+			"link": { "color": { "text": "var:preset|color|teal-deep" }, ":hover": { "color": { "text": "var:preset|color|base" } } },
+			"button": { "color": { "text": "var:preset|color|on-aqua", "gradient": "var:preset|gradient|aqua-sheen" } },
+			"caption": { "color": { "text": "var:preset|color|ink-muted" } }
+		},
+		"css": "& :where(h1,h2,h3) em{color:var(--wp--preset--color--teal-deep)}& .is-style-text-eyebrow{color:var(--wp--preset--color--teal-deep)}& .wp-block-separator{color:#0c1c2a1f}& li::marker{color:var(--wp--preset--color--teal-deep)}"
+	}
+}
