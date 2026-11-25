@@ -1,7 +1,9 @@
-# HydraLuxe WordPress theme
+# HydraLuxe theme — Git Updater setup
 
-Landing theme v0.1.1. Equal full-width provider cards, Stephanie first and Melissa second, with matching portrait/content proportions and heading sizes. Includes local fonts, logos and a selectable draft homepage template.
+Baseline version: 0.1.3, matching the confirmed installed homepage. Includes approved stacked cards with full-width details, boxed steps, matching filled CTAs and portrait heights, corrected section widths and WordPress Media portrait URLs. Header now includes the supplied metallic WordPress Media logo.
 
-Provider portraits use WordPress Media URLs confirmed by Yolanda. Headshot binaries are not required in this repository. Set Site Logo and site icon in WordPress. Media URLs are on hydraluxe-wellness.com; the site currently runs locally on Yolanda's computer using that domain, so external availability has not been verified.
+Theme files are at repository root, including style.css. Git Updater headers point to HHMsites/hydraluxe-theme and Primary Branch: main. No Release Asset header is enabled. Keep the installed theme directory hydraluxe-theme.
 
-Static JSON and block nesting checks passed before packaging. WordPress activation, editor validation and responsive rendering remain untested. Host deployment connection is unknown. No merge, deployment or DNS change is included.
+License/token are configured directly in WordPress, never stored in this repository. After merge, back up the site before the last manual setup upload and first updater test. The setup stays at 0.1.3; a later test bumps the version above the installed number and is installed through Dashboard > Updates after Refresh Cache.
+
+Static checks only: JSON/block structure and JavaScript syntax. WordPress/PHP execution, actual media responses, rendering and update installation are not verified. No automatic updates, deployment or DNS change configured. Content remains in theme templates; migration to a normal Home page is separate pending work.
