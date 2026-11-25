@@ -1,0 +1,11 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Portrait",
+	"slug": "image-portrait",
+	"blockTypes": [ "core/image" ],
+	"styles": {
+		"border": { "radius": "var(--wp--custom--radius--lg)" },
+		"css": "& img{aspect-ratio:4/3;object-fit:cover;object-position:50% 25%;border-radius:var(--wp--custom--radius--lg);box-shadow:inset 0 0 0 1px #65c9d67a}"
+	}
+}

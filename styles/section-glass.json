@@ -1,0 +1,14 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Glass card",
+	"slug": "section-glass",
+	"blockTypes": [ "core/group", "core/column" ],
+	"styles": {
+		"color": { "gradient": "var:preset|gradient|glass", "text": "var:preset|color|body" },
+		"border": { "color": "#4fb9cb40", "width": "1px", "style": "solid", "radius": "var(--wp--custom--radius--md)" },
+		"shadow": "var:preset|shadow|glass",
+		"spacing": { "padding": { "top": "var:preset|spacing|50", "bottom": "var:preset|spacing|50", "left": "var:preset|spacing|50", "right": "var:preset|spacing|50" } },
+		"css": "-webkit-backdrop-filter:blur(var(--wp--custom--blur--glass));backdrop-filter:blur(var(--wp--custom--blur--glass))"
+	}
+}

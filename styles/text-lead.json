@@ -1,0 +1,11 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Lead",
+	"slug": "text-lead",
+	"blockTypes": [ "core/paragraph" ],
+	"styles": {
+		"color": { "text": "var:preset|color|contrast" },
+		"typography": { "fontSize": "var:preset|font-size|large", "lineHeight": "1.65" }
+	}
+}
